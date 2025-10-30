@@ -1,0 +1,32 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Configuración sensible
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación / cache
+*.egg-info/
+*.egg/
+*.bak
+
+# Archivos generados por Django
+media/
+staticfiles/
+debug.log
+
+# Docker y dependencias
+*.pid
