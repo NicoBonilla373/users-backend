@@ -162,7 +162,7 @@ NOTIFICATION_SERVICE_URL = os.getenv("NOTIFICATION_SERVICE_URL", "http://notific
 
 # Opción A - RÁPIDA (desarrollo): permitir todos los orígenes
 # Descomenta la siguiente línea para permitir cualquier origen (útil para pruebas rápidas)
-CORS_ALLOWED_ORIGINS = os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
+CORS_ALLOWED_ORIGINS = os.getenv("CORS_ALLOWED_ORIGINS", "").split(",") if os.getenv("CORS_ALLOWED_ORIGINS") else []
 
 # Opción B - RECOMENDADA (más segura): permitir solo orígenes concretos
 # Si preferís esta opción, comentá la línea anterior y descomenta el bloque siguiente,
