@@ -501,6 +501,3 @@ NOTIFICATION_SERVICE_URL=http://notification-service:5000
 - [Notification Service](https://github.com/NicoBonilla373/notification-service)
 - [Manifiestos K8s](https://github.com/NicoBonilla373/k8s-manifiests)
 
----
-
-⭐ Si te ha sido útil, considera darle una estrella al repositorio
