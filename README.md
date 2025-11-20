@@ -471,7 +471,7 @@ kubectl logs users-backend-[pod-id] -n users-app
 kubectl logs -l app=users-backend -n users-app | grep "Notificación enviada"
 ```
 
-## 🔗 Integración con otros servicios
+## Integración con otros servicios
 
 ### Notification Service
 
